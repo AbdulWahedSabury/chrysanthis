@@ -8,7 +8,7 @@ export const MENU_CATEGORIES_PART_A: MenuCategory[] = [
     name: "Morning & brunch",
     tagline: "Home cooking made with love",
     intro: "Our Morning & Brunch Menu is served from 08:00–13:00.",
-    imageSrc: "https://imageproxy.wolt.com/assets/68af06ee5650c92c6dc919a9?w=1920%201920w",
+    imageSrc: "/images/breakfast.png",
     subsections: [
       {
         id: "breakfast",
@@ -22,7 +22,7 @@ export const MENU_CATEGORIES_PART_A: MenuCategory[] = [
               "Το αγαπημένο Κυπριακό παραδοσιακό λουκάνικο, χαλλούμι και λούντζα στη σχάρα, τηγανιτά αυγά και φρέσκες ντομάτες στη σχάρα. Συνοδεύεται μαζί με ψωμάκι μπριός.",
             ),
             price: "€9.50",
-            imageSrc : "https://imageproxy.wolt.com/assets/68af00d883a9e2e9a3cf3828?w=200"
+            imageSrc : "https://imageproxy.wolt.com/assets/68af00d883a9e2e9a3cf3828?w=1920"
           },
           {
             id: "bf-2",
@@ -32,7 +32,7 @@ export const MENU_CATEGORIES_PART_A: MenuCategory[] = [
               "Τα διάσημα πλέον σπιτικά μας μπιφτεκάκια φτιαγμένα από λουκάνικο, μαζί με μπέικον, τηγανιτά αυγά, φασόλια ντομάτες και μανιτάρια ψημένα στη σχάρα. Σερβίρεται τοστ.",
             ),
             price: "€9.50",
-            imageSrc : "https://imageproxy.wolt.com/assets/68af00c983a9e2e9a3cf3823?w=200"
+            imageSrc : "https://imageproxy.wolt.com/assets/68af00c983a9e2e9a3cf3823?w=1920"
           },
           {
             id: "bf-3",
@@ -42,7 +42,7 @@ export const MENU_CATEGORIES_PART_A: MenuCategory[] = [
               "Περιλαμβάνει χαλλούμι, μους από αβοκάντο, μανιτάρια και ντομάτες στη σχάρα, ελιές καθώς και αυγά ποσέ. Σερβίρεται τοστ.",
             ),
             price: "€9.50",
-            imageSrc : "https://imageproxy.wolt.com/assets/68aefdce96fbe9c58f982778?w=200"
+            imageSrc : "https://imageproxy.wolt.com/assets/68aefdce96fbe9c58f982778?w=1920"
           },
         ],
       },
@@ -58,7 +58,7 @@ export const MENU_CATEGORIES_PART_A: MenuCategory[] = [
               "Bagel με κρέμα από αβοκάντο και τυρί, τραγανό μπέικον, αυγά ποσέ, χαλλούμι σχάρας και ρόδι.",
             ),
             price: "€9.50",
-            imageSrc : "https://imageproxy.wolt.com/assets/68af055896fbe9c58f982956?w=200"
+            imageSrc : "https://imageproxy.wolt.com/assets/68af055896fbe9c58f982956?w=1920"
           },
           {
             id: "br-2",
@@ -68,7 +68,7 @@ export const MENU_CATEGORIES_PART_A: MenuCategory[] = [
               "Focaccia, επικαλυμμένη με σπιτική σάλτσα ντομάτας, τριμμένη μοτσαρέλα, σπιτικά λουκάνικα, τραγανό μπέικον, μανιτάρια ψημένα στη σχάρα και πρασινάδα εποχής.",
             ),
             price: "€9.50",
-            imageSrc : "https://imageproxy.wolt.com/assets/68af045f83a9e2e9a3cf392e?w=200"
+            imageSrc : "https://imageproxy.wolt.com/assets/68af045f83a9e2e9a3cf392e?w=1920"
           },
           {
             id: "br-3",
@@ -78,7 +78,7 @@ export const MENU_CATEGORIES_PART_A: MenuCategory[] = [
               "Αυγά ποσέ με σπανάκι, καπνιστό σολομό ή μπέικον πάνω σε brioche ψωμάκι. Τα συνοδεύει η σπιτική μας σάλτσα ολαντέζ.",
             ),
             price: "€11",
-            imageSrc : "https://imageproxy.wolt.com/assets/68aeff9b83a9e2e9a3cf37c6?w=200"
+            imageSrc : "https://imageproxy.wolt.com/assets/68aeff9b83a9e2e9a3cf37c6?w=1920"
           },
           {
             id: "br-4",
@@ -88,7 +88,7 @@ export const MENU_CATEGORIES_PART_A: MenuCategory[] = [
               "Άριστης ποιότητας παστράμι μέσα σε φρεσκοψημένο ψωμάκι bagel με κρεμώδες τυρί, μαρούλι, ντομάτα, αγγουράκι τουρσί και μουστάρδα στο πλάι.",
             ),
             price: "€10",
-            imageSrc : "https://imageproxy.wolt.com/assets/68aeff9b83a9e2e9a3cf37c6?w=200"
+            imageSrc : "https://imageproxy.wolt.com/assets/68aeff9b83a9e2e9a3cf37c6?w=1920"
           },
           {
             id: "br-5",
@@ -98,7 +98,7 @@ export const MENU_CATEGORIES_PART_A: MenuCategory[] = [
               "Σπιτική τάρτα με γέμιση από αυγό, μπέικον, τυρί και κρεμμύδια, σερβίρεται σαλάτα coleslaw.",
             ),
             price: "€9",
-            imageSrc : "https://imageproxy.wolt.com/assets/68af009283a9e2e9a3cf380c?w=200"
+            imageSrc : "https://imageproxy.wolt.com/assets/68af009283a9e2e9a3cf380c?w=1920"
           },
           {
             id: "br-6",
@@ -108,7 +108,7 @@ export const MENU_CATEGORIES_PART_A: MenuCategory[] = [
               "Συκώτι πατέ της μαμάς, από κοτόπουλο με φρεσκοψημένο ψωμί Focaccia και μαρμελάδα.",
             ),
             price: "€8.50",
-            imageSrc : "https://imageproxy.wolt.com/assets/68af019b83a9e2e9a3cf386d?w=200"
+            imageSrc : "https://imageproxy.wolt.com/assets/68af019b83a9e2e9a3cf386d?w=1920"
           },
           {
             id: "br-7",
@@ -118,7 +118,7 @@ export const MENU_CATEGORIES_PART_A: MenuCategory[] = [
               "Δύο φέτες ψωμί ολικής αλέσεως. Η μια επικαλυμμένη σπιτικό μας χούμους με παντζάρι και η άλλη με λιωμένο αβοκάντο. Συνοδεύονται με μανιτάρια στη σχάρα, ντοματίνια, ρόδι και ρόκα.",
             ),
             price: "€8.50",
-            imageSrc : "https://imageproxy.wolt.com/assets/68aeff0183a9e2e9a3cf37a1?w=200"
+            imageSrc : "https://imageproxy.wolt.com/assets/68aeff0183a9e2e9a3cf37a1?w=1920"
           },
           {
             id: "br-8",
@@ -128,7 +128,7 @@ export const MENU_CATEGORIES_PART_A: MenuCategory[] = [
               "Ελληνικό γιαούρτι συνοδευμένο με φρούτα εποχής, γκρανόλα, ξηρούς καρπούς και φυσικά υγιεινό και νόστιμο μέλι.",
             ),
             price: "€7",
-            imageSrc : "https://imageproxy.wolt.com/assets/68af05f783a9e2e9a3cf3974?w=200"
+            imageSrc : "https://imageproxy.wolt.com/assets/68af05f783a9e2e9a3cf3974?w=1920"
           },
           {
             id: "br-9",
@@ -142,7 +142,7 @@ export const MENU_CATEGORIES_PART_A: MenuCategory[] = [
               "Καπνιστός σολομός (+€3.50) · Chorizo (+€1.50).",
             ),
             price: "€10",
-            imageSrc : "https://imageproxy.wolt.com/assets/68af01dc5650c92c6dc9187b?w=200"
+            imageSrc : "https://imageproxy.wolt.com/assets/68af01dc5650c92c6dc9187b?w=970"
           },
         ],
       },
@@ -168,7 +168,7 @@ export const MENU_CATEGORIES_PART_A: MenuCategory[] = [
               "Ο απόλυτος πειρασμός με κομματάκια από τα σπιτικά μας μπισκότα, Nutella & λευκή σοκολάτα, παγωτό βανίλια & πέρλες σοκολάτας.",
             ),
             price: "€9.50",
-            imageSrc : "https://imageproxy.wolt.com/assets/68aeffe85650c92c6dc917ff?w=200"
+            imageSrc : "https://imageproxy.wolt.com/assets/68aeffe85650c92c6dc917ff?w=970"
           },
           {
             id: "pk-3",
@@ -178,7 +178,7 @@ export const MENU_CATEGORIES_PART_A: MenuCategory[] = [
               "Στρώσεις λευκής σοκολάτας και μπισκότου ανάμεσα στ' αφράτα pancakes με βανίλια παγωτό και από πάνω τραγανή λευκή σοκολάτα.",
             ),
             price: "€9.50",
-            imageSrc : "https://imageproxy.wolt.com/assets/68aef4e396fbe9c58f982559?w=200"
+            imageSrc : "https://imageproxy.wolt.com/assets/68aef4e396fbe9c58f982559?w=970"
           },
           {
             id: "pk-4",
@@ -188,7 +188,7 @@ export const MENU_CATEGORIES_PART_A: MenuCategory[] = [
               "Κρέμα φιστικιού με μαστίχα ανάμεσα στις ανάμεσα στ' αφράτα pancakes με τραγανό καταΐφι και από πάνω με παγωτό βανίλια και φιστίκια.",
             ),
             price: "€10",
-            imageSrc : "https://imageproxy.wolt.com/assets/68af022596fbe9c58f982885?w=200"
+            imageSrc : "https://imageproxy.wolt.com/assets/68af022596fbe9c58f982885?w=970"
           },
           {
             id: "pk-5",
@@ -198,7 +198,7 @@ export const MENU_CATEGORIES_PART_A: MenuCategory[] = [
               "Με σιρόπι από σφένδαμο (maple), λαχταριστά κομμάτια από τραγανιστό μπέικον, τηγανητό αυγό και ρόδι.",
             ),
             price: "€9.50",
-            imageSrc : "https://imageproxy.wolt.com/assets/68af066296fbe9c58f9829d4?w=200"
+            imageSrc : "https://imageproxy.wolt.com/assets/68af066296fbe9c58f9829d4?w=1920"
           },
         ],
       },

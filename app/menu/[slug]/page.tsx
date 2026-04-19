@@ -46,7 +46,7 @@ export default async function CategoryMenuPage({ params }: PageProps) {
         <BackLink href="/" label="All categories" />
 
         <header className="mt-10 grid gap-10 lg:grid-cols-2 lg:items-end lg:gap-14">
-          <div className="relative aspect-[16/10] overflow-hidden rounded-2xl ring-1 ring-white/10 lg:aspect-auto lg:min-h-[280px]">
+          <div className="relative aspect-16/10 overflow-hidden rounded-2xl ring-1 ring-white/10 lg:aspect-auto lg:min-h-[280px]">
             <Image
               src={category.imageSrc}
               alt=""
@@ -56,7 +56,7 @@ export default async function CategoryMenuPage({ params }: PageProps) {
               priority
             />
             <div
-              className="absolute inset-0 bg-gradient-to-t from-zinc-950/90 via-transparent to-transparent lg:bg-gradient-to-r lg:from-transparent lg:via-transparent lg:to-zinc-950/80"
+              className="absolute inset-0 bg-linear-to-t from-zinc-950/90 via-transparent to-transparent lg:bg-linear-to-r lg:from-transparent lg:via-transparent lg:to-zinc-950/80"
               aria-hidden
             />
           </div>
