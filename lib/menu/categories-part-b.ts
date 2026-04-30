@@ -4,62 +4,62 @@ const d = (en: string, el: string): MenuText => ({ en, el });
 
 export const MENU_CATEGORIES_PART_B: MenuCategory[] = [
   {
-    slug: "pasta-mains",
-    name: "Pasta & main dishes",
+    slug: "mains",
+    name: "Main dishes",
     tagline: "From the pass",
     imageSrc: "https://picsum.photos/seed/tktc-pasta/1200/900",
     subsections: [
-      {
-        id: "pasta",
-        title: "Pasta dishes",
-        items: [
-          {
-            id: "pa-1",
-            name: "Chrysanthi's carbonara",
-            description: d(
-              "Linguine pasta mixed with crispy bacon, marinated chicken breast, onions & parsley all tossed in a creamy parmesan sauce.",
-              "Linguine με τραγανό μπέικον, μαριναρισμένο στήθος κοτόπουλου, κρεμμύδια & μαϊντανό σε κρεμώδη σάλτσα παρμεζάνας.",
-            ),
-            price: "€13.50",
-          },
-          {
-            id: "pa-2",
-            name: "Linguine frutti di mare",
-            description: d(
-              "Mixed seafood with king prawns sautéed in ouzo & white wine with onions, in our homemade cream & tomato sauce served with linguine, dill & parmesan cheese.",
-              "Θαλασσινά με βασιλικές γαρίδες σε ούζο & λευκό κρασί, κρεμώδη σάλτσα ντομάτας, linguine, άνηθο & παρμεζάνα.",
-            ),
-            price: "€14.50",
-          },
-          {
-            id: "pa-3",
-            name: "Manzo beef pasta",
-            description: d(
-              "Strips of beef fillet, wine, onion, mushrooms in a cream sauce with Italian herbs, chives, rucola & parmesan cheese flakes.",
-              "Φιλέτο μοσχαριού, κρασί, κρεμμύδι, μανιτάρια σε κρέμα με ιταλικά μυρωδικά, σνιτ, ρόκα & νιφάδες παρμεζάνας.",
-            ),
-            price: "€14.50",
-          },
-          {
-            id: "pa-4",
-            name: "Crispy chicken Milanese",
-            description: d(
-              "Linguine pasta mixed in our homemade tomato sauce with crispy breaded chicken fillets topped with melted parmesan and mozzarella cheese with fresh basil leaves.",
-              "Linguine με σπιτική σάλτσα ντομάτας, τραγανό κοτόπουλο, λιωμένη παρμεζάνα & μοτσαρέλα, φρέσκος βασιλικός.",
-            ),
-            price: "€13.50",
-          },
-          {
-            id: "pa-5",
-            name: "Vegetarian penne pasta",
-            description: d(
-              "Penne pasta, homemade tomato sauce, cherry tomatoes, mushrooms, courgettes & baby spinach leaves.",
-              "Πέννες, σάλτσα ντομάτας, ντοματίνια, μανιτάρια, κολοκυθάκια & σπανάκι μωρού.",
-            ),
-            price: "€12",
-          },
-        ],
-      },
+      // {
+      //   id: "pasta",
+      //   title: "Pasta dishes",
+      //   items: [
+      //     {
+      //       id: "pa-1",
+      //       name: "Chrysanthi's carbonara",
+      //       description: d(
+      //         "Linguine pasta mixed with crispy bacon, marinated chicken breast, onions & parsley all tossed in a creamy parmesan sauce.",
+      //         "Linguine με τραγανό μπέικον, μαριναρισμένο στήθος κοτόπουλου, κρεμμύδια & μαϊντανό σε κρεμώδη σάλτσα παρμεζάνας.",
+      //       ),
+      //       price: "€13.50",
+      //     },
+      //     {
+      //       id: "pa-2",
+      //       name: "Linguine frutti di mare",
+      //       description: d(
+      //         "Mixed seafood with king prawns sautéed in ouzo & white wine with onions, in our homemade cream & tomato sauce served with linguine, dill & parmesan cheese.",
+      //         "Θαλασσινά με βασιλικές γαρίδες σε ούζο & λευκό κρασί, κρεμώδη σάλτσα ντομάτας, linguine, άνηθο & παρμεζάνα.",
+      //       ),
+      //       price: "€14.50",
+      //     },
+      //     {
+      //       id: "pa-3",
+      //       name: "Manzo beef pasta",
+      //       description: d(
+      //         "Strips of beef fillet, wine, onion, mushrooms in a cream sauce with Italian herbs, chives, rucola & parmesan cheese flakes.",
+      //         "Φιλέτο μοσχαριού, κρασί, κρεμμύδι, μανιτάρια σε κρέμα με ιταλικά μυρωδικά, σνιτ, ρόκα & νιφάδες παρμεζάνας.",
+      //       ),
+      //       price: "€14.50",
+      //     },
+      //     {
+      //       id: "pa-4",
+      //       name: "Crispy chicken Milanese",
+      //       description: d(
+      //         "Linguine pasta mixed in our homemade tomato sauce with crispy breaded chicken fillets topped with melted parmesan and mozzarella cheese with fresh basil leaves.",
+      //         "Linguine με σπιτική σάλτσα ντομάτας, τραγανό κοτόπουλο, λιωμένη παρμεζάνα & μοτσαρέλα, φρέσκος βασιλικός.",
+      //       ),
+      //       price: "€13.50",
+      //     },
+      //     {
+      //       id: "pa-5",
+      //       name: "Vegetarian penne pasta",
+      //       description: d(
+      //         "Penne pasta, homemade tomato sauce, cherry tomatoes, mushrooms, courgettes & baby spinach leaves.",
+      //         "Πέννες, σάλτσα ντομάτας, ντοματίνια, μανιτάρια, κολοκυθάκια & σπανάκι μωρού.",
+      //       ),
+      //       price: "€12",
+      //     },
+      //   ],
+      // },
       {
         id: "mains",
         title: "Main dishes",
@@ -108,6 +108,7 @@ export const MENU_CATEGORIES_PART_B: MenuCategory[] = [
               "Μαριναρισμένο στήθος κοτόπουλου με ρύζι basmati & μικτή σαλάτα.",
             ),
             price: "€14",
+            imageSrc :"https://imageproxy.wolt.com/assets/68af047483a9e2e9a3cf392f"
           },
           {
             id: "mn-6",
