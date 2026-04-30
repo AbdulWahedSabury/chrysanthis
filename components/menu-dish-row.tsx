@@ -26,7 +26,7 @@ export function MenuDishRow({ item }: MenuDishRowProps) {
   return (
     <li className="border-b border-white/8 py-6 last:border-b-0">
       <div className="flex gap-4 sm:gap-6 md:flex-row flex-col">
-        <div className="relative h-60 w-60 shrink-0 overflow-hidden rounded-xl ring-1 ring-white/10 sm:h-60 sm:w-60">
+        <div className="relative h-60 w-full shrink-0 overflow-hidden rounded-xl ring-1 ring-white/10 sm:h-60 sm:w-60">
           <Image
             src={src}
             alt=""
