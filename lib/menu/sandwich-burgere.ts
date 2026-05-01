@@ -5,7 +5,7 @@ const d = (en: string, el: string): MenuText => ({ en, el });
 export const SANDWICHBURGER: MenuCategory[] = [
   {
     slug: "sandwich-burger",
-    name: "Freshly made Sandwiches and Burger",
+    name: "Freshly made Sandwiches and Burgers",
     tagline: "Home Sandwiches and Burger made with love",
     intro: "Our Sandwiches and Burger is served from 12:00–23:30.",
     imageSrc: "/images/sandwichburger.png",
@@ -23,7 +23,7 @@ export const SANDWICHBURGER: MenuCategory[] = [
             ),
             price: "€13",
             imageSrc:
-              "https://imageproxy.wolt.com/assets/68af058796fbe9c58f982963",
+              "https://imageproxy.wolt.com/assets/68aefe5c83a9e2e9a3cf376c?w=960",
           },
           {
             id: "sw-2",
@@ -115,42 +115,6 @@ export const SANDWICHBURGER: MenuCategory[] = [
             ),
             price: "€13.50",
             imageSrc : "https://imageproxy.wolt.com/assets/68af053396fbe9c58f982943?w=960"
-          },
-        ],
-      },
-      {
-        id: "kids",
-        title: "For the little ones",
-        items: [
-          {
-            id: "ki-1",
-            name: "Chicken goujons & chips",
-            price: "€8",
-          },
-          {
-            id: "ki-2",
-            name: "Tricolore pasta in our tomato sauce",
-            price: "€7",
-          },
-          {
-            id: "ki-3",
-            name: "Cheese burger & chips",
-            price: "€9",
-          },
-          {
-            id: "ki-4",
-            name: "Toasty with halloumi & lountza",
-            price: "€7",
-          },
-          {
-            id: "ki-5",
-            name: "Kids margarita pizza",
-            price: "€6.50",
-          },
-          {
-            id: "ki-6",
-            name: "Freshly squeezed orange or apple juice",
-            price: "€2.50",
           },
         ],
       },
