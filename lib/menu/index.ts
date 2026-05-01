@@ -6,6 +6,10 @@ import { MENU_CATEGORIES_PART_C } from "./categories-part-c";
 import { dishImageSrc } from "./helpers";
 import type { MenuCategory } from "./types";
 import { SANDWICHBURGER } from "./sandwich-burgere";
+import { PASTAS } from "./pasta";
+import { SALADS } from "./salads";
+import { KIDS } from "./kids";
+import { DESSERT } from "./dessert";
 
 export type {
   MenuCategory,
@@ -21,7 +25,10 @@ export const MENU_CATEGORIES: MenuCategory[] = [
   ...MENU_BRUNCH_COCKTAILS,
   ...MAINMENU,
   ...SANDWICHBURGER,
-  ...MENU_CATEGORIES_PART_B,
+  ...PASTAS,
+  ...SALADS,
+  ...KIDS,
+  ...DESSERT,
   ...MENU_CATEGORIES_PART_C,
 ];
 
