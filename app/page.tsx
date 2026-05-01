@@ -6,7 +6,7 @@ import { MENU_CATEGORIES } from "@/lib/menu";
 import { motion } from "framer-motion";
 
 export default function HomePage() {
-  const name = "To Kafe tis Chrysanthis";
+  const name = "To Kafe Tis Chrysanthis";
   return (
     <div className="min-h-dvh bg-zinc-950 text-[#e5e7eb]">
       <SiteHeader />
