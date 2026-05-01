@@ -32,7 +32,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${poppins.variable} ${prata.variable} h-full`}
-    >
+    >z
       <body className="min-h-dvh bg-zinc-950 text-[#e5e7eb] antialiased">
         {children}
       </body>
